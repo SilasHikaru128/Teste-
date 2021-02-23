@@ -1,0 +1,37 @@
+/*Caso não é especificado .links :link ou .links: visited o .link serve para os dois*/
+.links{
+    
+    text-decoration: none;
+    color: #bc2035;
+    /*
+     A propriedade cursor permite alterar o cursor quando o mouse é passado em cima
+    cursor: crosshair; 
+    
+    background: greenyellow; */
+    padding: 10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    border: 2px solid #bc2035;
+   
+}
+
+.links:visited{
+    border-color:#ddd;
+    color:#ddd;
+}
+
+/*Quando o mouse passa pelo link seu estilo é complementado*/
+.links:hover{
+
+    background: #bc2035;
+    color: white;
+    border-color:#bc2035;
+}
+
+/*Quando o mouse clica no link seu estilo é complementado*/
+.links:active{
+    background: white;
+    color:#bc2035;
+    border-color:#bc2035;
+}
